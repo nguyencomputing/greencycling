@@ -1,0 +1,47 @@
+.display-middle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);margin:auto}
+.jumbo{font-size:64px!important;margin:40px}
+.animate-top{position:relative;animation:animatetop 0.4s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+.display-container{position:relative}.tooltip .text{display:none}.tooltip:hover .text{display:inline-block}
+.animate-opacity{animation:opac 0.8s}@keyframes opac{from{opacity:0} to{opacity:1}}
+.text-white,.hover-text-white:hover{color:#fff!important}
+padding-large{padding:12px 24px!important}
+display-topleft{position:absolute;left:0;top:0}
+padding-large{padding:12px 24px!important}
+xlarge{font-size:24px!important}
+.border-white,.hover-border-white:hover,.border-white,.hover-border-white:hover{border-color:#FFFFFF!important;border-width:2px;border-style:solid;margin:2px}
+.large{font-size:18px!important}
+.center{text-align:center!important}
+.display-bottomleft{position:absolute;left:0;bottom:0}
+.button {border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;margin: 4px 2px;transition-duration: 0.4s;cursor: pointer;border-radius: 7px;}
+.button1 {background-color: white;color: black;border: 2px solid #ff6a63;}
+.button1:hover {background-color: #ff6a63;color: white;}
+.button2 {background-color: white;color: black;border: 2px solid #636dff;}
+.button2:hover {background-color: #636dff;color: white;}
+.button3 {background-color: white;color: black;border: 2px solid #37b837;}
+.button3:hover {background-color: #37b837;color: white;}
+.button4 {background-color: white;color: black;border: 2px solid:#9e9e9e;}
+.button4:hover {background-color:#9e9e9e;color: white;}
+#map {height:100vh;width: 100%;position: relative;}
+.formBlock {max-width: 300px;background-color: #FFF;border: 1px solid #ddd;position: absolute;top: 10px;left: 10px;padding: 10px;z-index: 999;box-shadow: 0 1px 5px rgba(0,0,0,0.65);border-radius: 5px;width: 100%;}
+.leaflet-top .leaflet-control {margin-top: 180px;}
+.input {padding: 10px;width: 100%;border: 1px solid #ddd;font-size: 15px;border-radius: 3px;}
+#form {padding: 0;margin: 0;}
+input:nth-child(1) {margin-bottom: 10px;}
+* {margin: 0;padding: 0;font-family: "Raleway", sans-serif}
+#popup-background {position: fixed;top: 0;left: 0;right: 0;bottom: 0;background-color: rgba(0, 0, 0, 0.8);display: none;justify-content: center;align-items: center;}
+#popup {width: 700px;height: fit-content;background: #fff;border-radius: 5px;}
+#popup h3 {padding: 5px;font-size: 24px;font-weight: 400;}
+#popup p {padding: 5px;margin-top: 50px;font-size: 16px;}
+.close {margin: 0;border: none;padding-right: 10px;background: transparent;font-size: 24px;font-weight: 600;}
+#popup button {padding: 0;float: right;}
+button {cursor: pointer;font-size: 18px;padding: 3px;font-family: "Raleway", sans-serif;border-radius: 7px;}
+#popup input {width: 120px;padding: 10px;}
+.item {display: flex;align-items: center;justify-content: space-around;padding: 10px;}
+.item * {text-align: center;}
+.card {width: 300px;display: flex;flex-direction: column;align-self: center;border: solid #72a86f 1px;border-radius: 10px;margin: 12px;}
+.card img {width: 200px;align-self: center;overflow: hidden;}
+.card button {float: right;width: 80px;}
+.card * {margin-left: 25px;margin-bottom: 12px;}
+#item-container {width: 100%;max-width: 1200px;display: flex;margin: 0 auto;flex-wrap: wrap;justify-content: space-evenly;}
+#nav {background: #72a86f;padding: 10px calc((100% - 1200px) / 2);}
+.img{padding-top:20px;padding-bottom:10px;display:block;margin:auto}
